@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UI Practice</title>
+	<link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="./lib/fontawesome/css/all.min.css" rel="stylesheet" >
+	<link href="./style.css" rel="stylesheet" text="text/css" >
+	<script src="./lib/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<script src="./lib/jquery-3.6.0.min.js" ></script>
+
+</head>
+<body>
+	<!-- navbar --> 
+	<nav class="navbar fixed-top navbar-expand-lg dark-background" >
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+			<img src="./assets/header_logo.svg" href="#" width=133 height=40>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#solutions">Solutions</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#cloud-base">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#org-solution">Resouces</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav">
+		  		<li class="nav-item">
+					<a class="nav-link" href="#get-start">Contact Us</a>
+				</li>
+				<li class="nav-item nav-item-button">
+					<div class="nav-item-button">
+						<button class="nav-link svg-btn btn-get-demo"></button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+
+	<section id="about" class="section section-about dark-background">
+		<div class="container-fluid px-0">
+			<div class="row g-0" style="min-height: calc(100vh - 80px)">
+				<div class="col-lg-6 text-panel align-self-center">
+					<div class="text-paragraph">
+						<h1 class="light-title-text">
+							Freight Forwarding Software
+						</h1>
+						<div class="light-content-text content-text mt-4">
+							Designed to facilitate freight forwarders and NVOCCs to manage the process of moving cargoes from one point to another, freight forwarding software provides a web portal to centralize all aspects of your freight business in one place.
+						</div>
+						<button class="svg-btn btn-get-start pl-0" style="margin-top: 40px;"></button>
+					</div>
+				</div>
+				<div class="col-lg-6 image-panel">
+					<img src="./assets/banner@2x.jpg" width="100%" height="100%">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="solutions" class="section section-solutions dark-background">
+		<div class="container px-0">
+			<div class="row row-cols-1 g-0 justify-content-center title-row text-center">
+				<div class="col light-title-text fs-title">
+					All-in-one freight forwarding software solution
+				</div>
+			</div>
+			<div class="row row-cols-md-2 row-cols-lg-3 g-0 content-row">
+				<div class="col">
+					<div class="card dark-background">
+						<div class="card-img-top" >
+							<img src="./assets/03.svg" >
+						</div>
+						<div class="card-body p-0">
+							<p class="light-title-text fs-heading-2">
+								For ocean, air or railway transportation
+							</p>
+							<p class="light-content-text">
+								Designed for all types of freight forwarding businesses, OOXX helps you manage and track real-time shipments around the globel.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card dark-background">
+						<div class="card-img-top" >
+							<img src="./assets/01.svg" >
+						</div>
+						<div class="card-body p-0">
+							<p class="light-title-text fs-heading-2">
+								Manage all documents on a single platform
+							</p>
+							<p class="light-content-text">
+								Through the shipment-based document center in OOXX, you can spend your time efficiently on crucial documents such as air waybills and bills of lading.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card dark-background">
+						<div class="card-img-top" >
+							<img src="./assets/02.svg">
+						</div>
+						<div class="card-body p-0">
+							<p class="light-title-text fs-heading-2">
+								Align activities across departments
+							</p>
+							<p class="light-content-text">
+								Streamline workflows from finding sales quotation to creating accounting invoice, OOXX facilitates the way of forwarder management.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pros" class="section section-pros">
+		<div class="container-fluid px-0 light-background">
+			<div class="row g-0">
+				<div class="col-lg-6 text-panel">
+					<div class="pros-card text-paragraph">
+						<div class="dark-title-text fs-title">
+							Access Freight Forwarding System Anytime, Anywhere
+						</div>
+						<div class="accordion accordion-flush" id="benfitItems">
+							<div class="accordion-item">
+							    <h2 class="accordion-header" id="benefitOne">
+							    	<button class="accordion-button fs-heading-2" type="button" data-bs-toggle="collapse" data-bs-target="#benefitCollapseOne" aria-expanded="true" aria-controls="benefitCollapseOne">
+				    					No installation. Purely Web-based
+									</button>
+								</h2>
+								<div id="benefitCollapseOne" class="accordion-collapse collapse show" aria-labelledby="benefitOne" data-bs-parent="#benfitItems">
+									<div class="accordion-body dark-content-text">
+										Apply for an account and OOXX will take care of everything, including speedy deployment and data migration. Solve all your business needs from day one with our cloud-based software solution.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+							    <h2 class="accordion-header" id="benefitTwo">
+							    	<button class="accordion-button collapsed fs-heading-2" type="button" data-bs-toggle="collapse" data-bs-target="#benefitCollapseTwo" aria-expanded="false" aria-controls="benefitCollapseTwo">
+				    					Perfect for work-from-home
+									</button>
+								</h2>
+								<div id="benefitCollapseTwo" class="accordion-collapse collapse" aria-labelledby="benefitTwo" data-bs-parent="#benfitItems">
+									<div class="accordion-body dark-content-text">
+										Apply for an account and OOXX will take care of everything, including speedy deployment and data migration. Solve all your business needs from day one with our cloud-based software solution.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+							    <h2 class="accordion-header" id="benefitThree">
+							    	<button class="accordion-button collapsed fs-heading-2" type="button" data-bs-toggle="collapse" data-bs-target="#benefitCollapseThree" aria-expanded="false" aria-controls="benefitCollapseThree">
+				    					Real-Time Decision-Making
+									</button>
+								</h2>
+								<div id="benefitCollapseThree" class="accordion-collapse collapse" aria-labelledby="benefitThree" data-bs-parent="#benfitItems">
+									<div class="accordion-body dark-content-text">
+										Apply for an account and OOXX will take care of everything, including speedy deployment and data migration. Solve all your business needs from day one with our cloud-based software solution.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 image-panel align-self-center">
+					<div class="img-container">
+						<img src="./assets/UI@2x.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="cloud-base" class="section section-cloud-base gray-background">
+		<div class="container px-0">
+			<div class="row g-0 justify-content-center title-row text-center">
+				<div class="col dark-title-text fs-title">
+					Cloud-Based Freight Forwarding System
+				</div>
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+				<div class="col">
+					<div class="card gray-background image-left">
+						<img src="./assets/icon_icloud.svg" height="30px">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-2 mb-1">Cloud-Backed</div>
+							<div class="dark-content-text">
+								OOXX runs on Amazon AWS. Cloud servers help you prevent downtime in the more competitive freight forwarding industry.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card gray-background image-left">
+						<img src="./assets/icon_API_EDI.svg" height="30px">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-2 mb-1">API & EDI Connectivity</div>
+							<div class="dark-content-text">
+								Integrate data and information with carriers, overseas agents, 3PL, various digital platforms, and other service providers.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card gray-background image-left">
+						<img src="./assets/icon_database.svg" height="30px">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-2 mb-1">Data Security</div>
+							<div class="dark-content-text">
+								All your data are well protected by us and Amazon with two copies of the backup.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="transport-mgmt" class="section section-transport-mgmt light-background">
+		<div class="container px-0">
+			<div class="row g-0 title-row">
+				<div class="col dark-title-text fs-title">
+					Transportation Management for Forwarders
+				</div>
+			</div>
+			<div class="carousel-container d-flex flex-row flex-nowrap">
+				<div class="carousel-body">
+					<div class="carousel-element">
+						<div class="card h-100 gray-background icon-top">
+							<div class="card-body p-5">
+								<div class="mb-3">
+									<img src="./assets/icon_airplane.svg">
+								</div>
+								<div class="dark-title-text fs-heading-2 mb-3">
+									Air freight: Import & Export
+								</div>
+								<div class="dark-content-text">
+									File critical documents, B/L, and airway bills with a web-based freight forwarding software. This will help increase your freight forwarding operation efficiency.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-element">
+						<div class="card h-100 gray-background">
+							<div class="card-body p-5">
+								<div class="mb-3">
+									<img src="./assets/icon_CRM.svg">
+								</div>
+								<div class="dark-title-text fs-heading-2 mb-3">
+									CRM
+								</div>
+								<div class="dark-content-text">
+									Build firm relationships with customers with a pre-configured trade parties list. Other features include customizing service memos, and integrating pop-up warnings to take note of trade statuses.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-element">
+						<div class="card h-100 gray-background">
+							<div class="card-body p-5">
+								<div class="mb-3">
+									<img src="./assets/icon_Ocean freight.svg">
+								</div>
+								<div class="dark-title-text fs-heading-2 mb-3">
+									Ocean freight: Import & Export
+								</div>
+								<div class="dark-content-text">
+									You will be able to separate air waybills and carry out consolidation. The instant arrival notice allows you to view your cargo manifest status at a glance.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-element">
+						<div class="card h-100 gray-background">
+							<div class="card-body p-5">
+								<div class="mb-3">
+									<img src="./assets/icon_Accounting.svg">
+								</div>
+								<div class="dark-title-text fs-heading-2 mb-3">Accounting</div>
+								<div class="dark-content-text">
+									Everything you need to create invoices for both operational and non-operational processes, record demurrage charges, and provide readied and comprehensive reports with our CPA-verified accounting module.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="gofrieght-tracking" class="section section-gofrieght-tracking">
+		<div class="container-fulid px-0">
+			<div class="row g-0">
+				<div class="col-lg-6 text-panel align-self-center">
+					<div class="text-paragraph">
+						<div class="category-text">
+							OOXX Tracking
+						</div>
+						<div class="light-title-text fs-heading mb-4">
+							Stay Updated Before Your Customer Asks
+						</div>
+						<div class="light-content-text mb-4">
+							Your customers want real-time updates of their cargos. With the integration of various API & EDI, OOXX Tracking provides a customer-facing platform to facilitate container tracking and minimize demurrage and detention fees.
+						</div>
+						<div class="learn-more dark-content-text">
+							<span>Learn More</span>
+							<i class="fa-solid fa-circle-arrow-right learn-more-icon"></i>
+						</div>	
+					</div>
+				</div>
+				<div class="col-lg-6 image-panel">
+					<div class="img-container" style="max-width: 100%;max-height: 600;">
+						<img src="./assets/UI@2x.jpg" >
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="with-you" class="section section-with-you">
+		<div class="container px-0 light-background">
+			<div class="row">
+				<div class="col-lg-6 image-panel align-self-center">
+					<div class="img-container" style="max-width: 640;max-height: 700;">
+						<img src="./assets/Pic@2x.jpg">
+					</div>
+				</div>
+				<div class="col-lg-6 text-panel">
+					<div class="text-paragraph h-100">
+						<div class="title dark-title-text fs-title mb-3">
+							Let OOXX scale with you as you grow
+						</div>
+						<div class="content">
+							<div class="dark-content-text mb-5">
+								Let GoFOOXX is a leading freight forwarding software, and our primary goal is to optimize and digitalize the traditional freight forwarding process. Strictly designed around freight forwarders’ tracking challenges, and requirements, we offer cloud-based software as a service(SaaS) solutions for freight forwarders and logistics companies to facilitate business processes.
+							</div>
+							<div class="dark-content-text">
+								With our fully-integrated logistics software, logistics and supply chain industry required documents such as airway bills, bill of lading, ISF, and AMS are all predefined in an organized and user-friendly interface. Our software can be used globally for air freight, ocean freight, and cargo transportation.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="org-solution" class="section section-org-solution light-background">
+		<div class="container px-0">
+			<div class="row g-0 section-title justify-content-center title-row">
+				<div class="col dark-title-text fs-title text-center">
+					An Organizational Solution for All Departments
+				</div>
+			</div>
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+				<div class="col">
+					<div class="card h-100 gray-background">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-1 mb-3">Operation</div>
+							<div class="dark-content-text">
+								Streamline and automate your operation workflow by eliminating manual tasks and digitalizing the entire forwarding process.
+							</div>
+						</div>
+						<div class="card-footer p-0">
+	        				<div class="learn-more learn-more-light">
+								<span>Learn More</span>
+								<i class="fa-solid fa-circle-arrow-right learn-more-icon"></i>
+							</div>
+	      				</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 gray-background">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-1 mb-3">Management</div>
+							<div class="dark-content-text">
+								We will reveal the insights you need to make real-time decisions at the right time that will propel your business forward.
+							</div>
+						</div>
+						<div class="card-footer p-0">
+	        				<div class="learn-more learn-more-light">
+								<span>Learn More</span>
+								<i class="fa-solid fa-circle-arrow-right learn-more-icon"></i>
+							</div>
+	      				</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100 gray-background">
+						<div class="card-body p-0">
+							<div class="dark-title-text fs-heading-1 mb-3">Accounting</div>
+							<div class="dark-content-text">
+								OOXX’s FMS incorporates a shipment-based accounting system to create a streamlined approach for greater visibility and control over your finances.
+							</div>
+						</div>
+						<div class="card-footer p-0">
+	        				<div class="learn-more learn-more-light">
+								<span>Learn More</span>
+								<i class="fa-solid fa-circle-arrow-right learn-more-icon"></i>
+							</div>
+	      				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="faq" class="section section-faq light-background">
+		<div class="container px-0">
+			<div class="row">
+				<div class="col-md-5 left-panel mb-3">
+					<div class="dark-title-text fs-heading-1">
+						FAQ.
+					</div>
+					<div style="max-width: 310px;">
+						<div style="color:#3ABBA6;cursor: pointer;">
+							Download PDF
+							<i class="svg-icon icon-download"></i>
+						</div>
+						<div class="dark-content-text">
+							to learn more about the 5-step Freight Forwarding Process
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7  mb-3">
+					<div class="accordion accordion-flush" id="questionItems">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="questionOne">
+								<button class="accordion-button accordion-button-plus dark-item-title-text" type="button" data-bs-toggle="collapse" data-bs-target="#questionCollapseOne" aria-expanded="true" aria-controls="questionCollapseOne">
+									What is Freight Forwarding Software?
+								</button>
+							</h2>
+							<div id="questionCollapseOne" class="accordion-collapse collapse show" aria-labelledby="questionOne" data-bs-parent="#questionItems">
+								<div class="accordion-body dark-content-text">
+									Freight Forwarding Software is designed to help freight forwarding companies better manage and operate their logistics business. It is used to produce documents that shipping and logistics need such as airway bills and bill of lading. Good freight management software should be able to control accounting status, manage forwarder business, boost team productivity, and increase operating efficiency.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="questionTwo">
+								<button class="accordion-button accordion-button-plus collapsed dark-item-title-text" type="button" data-bs-toggle="collapse" data-bs-target="#questionCollapseTwo" aria-expanded="false" aria-controls="questionCollapseTwo">
+									What’s the Process of Freight Forwarding?
+								</button>
+							</h2>
+							<div id="questionCollapseTwo" class="accordion-collapse collapse" aria-labelledby="questionTwo" data-bs-parent="#questionItems">
+								<div class="accordion-body dark-content-text">
+									Freight Forwarding Software is designed to help freight forwarding companies better manage and operate their logistics business. It is used to produce documents that shipping and logistics need such as airway bills and bill of lading. Good freight management software should be able to control accounting status, manage forwarder business, boost team productivity, and increase operating efficiency.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="get-start" class="section section-get-start">
+		<div class="container px-0">
+			<h1 class="light-title-text">
+				Ready to experience shipment transparency like never before?
+			</h1>
+			<h1 class="get-start-link">
+				Get Started 
+				<i class="svg-icon icon-arrow-right"></i>
+			</h1>
+		</div>
+	</section>
+	<section id="footer" class="section section-footer dark-background">
+		<div class="container px-0">
+			<div class="link-groups row">
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="category-text">
+						OOXX Tracking
+					</div>
+					<ul class="link-group">
+					  <li class="link">Why Us</li>
+					  <li class="link">OOXX Team</li>
+					  <li class="link">Referral Program</li>
+					  <li class="link">Contact Us</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="category-text">
+						Solutions
+					</div>
+					<ul class="link-group">
+					  <li class="link">Integrated Accounting</li>
+					  <li class="link">Managed Business</li>
+					  <li class="link">Productive Workflow</li>
+					  <li class="link">Switch to OOXX</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+					<div class="category-text">
+						Resources
+					</div>
+					<ul class="link-group">
+					  <li class="link">Blog</li>
+					  <li class="link">Glossary</li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-12 col-lg-3">
+					<div class="category-text">
+						Sign up for our newsletter !
+					</div>
+					<div class="description">
+						Weekly inspirations that will help you discover new opportunities.
+					</div>
+					<div class="custom-input-group">
+						<input tye="text" class="subscribe-input" placeholder="E-mail">
+						<button class="svg-btn btn-subscribe"></button>
+					</div>
+				</div>
+			</div>
+			<div class="contact-info row">
+				<div class="col-12">
+					<div class="social-media float-start">
+						<button class="svg-btn btn-facebook mr-2"></button>
+						<button class="svg-btn btn-linkedln mr-2"></button>
+						<button class="svg-btn btn-youtube mr-2"></button>
+					</div>
+					<div class="float-end">
+						Copyright © 2021 Pei Yu KO. All rights reserved. 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	// var rollingId = null
+	$(document).ready(function(){
+
+		$(".carousel-container .carousel-body").each((index,elem) =>{
+			var clone = $(elem).clone();
+			clone.addClass("clone")
+			$(elem).parent().append(clone);
+		});
+		$(".carousel-container .carousel-element").mouseenter(function(){
+			$(this).parent().parent().find(".carousel-body").css("animation-play-state","paused");
+		}).mouseleave(function(){
+			$(this).parent().parent().find(".carousel-body").css("animation-play-state","running");
+		});
+
+	});
+
+</script>
